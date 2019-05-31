@@ -30,14 +30,14 @@ var LinkedList = function () {
   list.contains = function (target) {
     var current = list.head;
     var found;
-    while(current.next.value !== null){
-      if (current.value === target || current.next === target) {
-        found = target;
+    while(current.next){
+      if (current.value === target) {
+        return true;
       } else {
         current = current.next;
       }
     }
-    return found === target;
+    return current.value === target ? true : false;
   };
   return list;
 };
