@@ -29,26 +29,6 @@ treeMethods.contains = function(target) {
   return false;
 };
 
-let printObject = function(object) {
-  console.log(JSON.stringify(object));
-};
-
-// let myTree = Tree();
-
-//  myTree.addChild('Max');
-// printObject(myTree.children);
-// myTree.addChild('Patrick');
-// printObject(myTree.children);
-// console.log(myTree.contains('Max'));
-
-
-// myTree.addChild(5);
-// myTree.addChild(6);
-// myTree.children[0].addChild(7);
-// myTree.children[1].addChild(8);
-// printObject(myTree.children);
-
-
 /*
  * Complexity: What is the time complexity of the above functions?
  */
